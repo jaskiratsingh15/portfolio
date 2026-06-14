@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-logo"><a href="#">JS.</a></div>
+        <nav class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle" aria-label="Toggle Theme" class="icon-btn">🌓</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h1>Hi, I am <span class="highlight-text">John Smith</span></h1>
+            <h2>A Passionate Software Engineer.</h2>
+            <p class="hero-bio">
+                I build clean, accessible, and high-performing web applications. Focused on engineering elegant solutions to complex digital challenges.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#" class="btn btn-secondary" target="_blank">View Resume</a>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h3 class="section-title">Projects</h3>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h4>E-Commerce Platform</h4>
+                    <p>A full-stack marketplace web app built with React and Node.js featuring secure checkout integrations.</p>
+                    <div class="tech-stack">
+                        <span>React</span><span>Node.js</span><span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Code</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h4>Task Management API</h4>
+                    <p>A robust RESTful API equipped with JWT authentication, comprehensive rate-limiting, and detailed documentation.</p>
+                    <div class="tech-stack">
+                        <span>Express</span><span>TypeScript</span><span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Code</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h3 class="section-title">Skills</h3>
+            <ul class="skills-list">
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <h3 class="section-title">Contact</h3>
+        <p>Feel free to reach out for collaborations or just a friendly chat!</p>
+        <a href="mailto:john.smith@example.com" class="email-link">john.smith@example.com</a>
+        <div class="footer-credits">
+            <p>&copy; 2026 Designed & Engineered by John Smith</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
