@@ -3,84 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Portfolio</title>
+    <title>Jaskirat Singh | Physics Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Header / Navigation -->
     <header class="navbar">
-        <div class="nav-logo"><a href="#">JS.</a></div>
+        <div class="nav-logo"><a href="#">JS</a></div>
         <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
             <button id="theme-toggle" aria-label="Toggle Theme" class="icon-btn">🌓</button>
         </nav>
     </header>
 
     <main class="container">
-        <section class="hero-section">
-            <h1>Hi, I am <span class="highlight-text">John Smith</span></h1>
-            <h2>A Passionate Software Engineer.</h2>
+        <!-- Hero & About Section -->
+        <section id="about" class="hero-section">
+            <h1>Hi, I am <span class="highlight-text">Jaskirat Singh</span></h1>
+            <h2>Undergraduate Physics Student and Researcher</h2>
             <p class="hero-bio">
-                I build clean, accessible, and high-performing web applications. Focused on engineering elegant solutions to complex digital challenges.
+                I am deeply interested in **Theoretical Physics** and **Computational Physics in Astrophysics**. Currently looking to engineer solutions to fundamental questions through academic and computational experimentation.
             </p>
+            
+            <!-- Education Sub-block inside About -->
+            <div class="education-block">
+                <h3>Education</h3>
+                <div class="edu-item">
+                    <strong>BS Honours in Physics</strong> — SGTB Khalsa College, University of Delhi
+                    <span class="gpa-tag">GPA: 8.57 / 10 (Upto 3rd Semester)</span>
+                </div>
+            </div>
+            
             <div class="hero-actions">
-                <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                <a href="#" class="btn btn-secondary" target="_blank">View Resume</a>
+                <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+                <a href="https://github.com/" target="_blank" class="btn btn-secondary">GitHub</a>
+                <a href="https://linkedin.com/" target="_blank" class="btn btn-secondary">LinkedIn</a>
             </div>
         </section>
 
+        <!-- Research Experience Section -->
+        <section id="research" class="section">
+            <h3 class="section-title">Research Experience</h3>
+            <div class="experience-stack">
+                
+                <div class="exp-card">
+                    <h4>Navigator for the Visually Challenged</h4>
+                    <span class="exp-sub">DSKC Summer Workshop</span>
+                    <p>Developed a guide system leveraging hardware integrations for accessibility solutions.</p>
+                    <div class="tech-stack">
+                        <span>Raspberry Pi 4 Module</span><span>Raspberry Pi Camera Module v1.3</span>
+                    </div>
+                </div>
+
+                <div class="exp-card">
+                    <h4>Variable Mass Pendulum</h4>
+                    <span class="exp-sub">Ongoing Research</span>
+                    <p>Aiming to experimentally verify the structural dependence of changing mass configurations on the mathematical Time Period.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Co-Curricular & Projects Section -->
         <section id="projects" class="section">
-            <h3 class="section-title">Projects</h3>
+            <h3 class="section-title">Co-Curricular & Projects</h3>
             <div class="projects-grid">
                 
                 <div class="project-card">
-                    <h4>E-Commerce Platform</h4>
-                    <p>A full-stack marketplace web app built with React and Node.js featuring secure checkout integrations.</p>
-                    <div class="tech-stack">
-                        <span>React</span><span>Node.js</span><span>MongoDB</span>
-                    </div>
+                    <h4>LHC and FCC Poster Presentation</h4>
+                    <span class="card-origin">National Science Day, IUAC</span>
+                    <p>Presented a research-focused visual poster addressing Large Hadron Collider and Future Circular Collider topics.</p>
                     <div class="project-links">
-                        <a href="#" target="_blank">Code</a>
-                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">Click here for Poster</a>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <h4>Task Management API</h4>
-                    <p>A robust RESTful API equipped with JWT authentication, comprehensive rate-limiting, and detailed documentation.</p>
-                    <div class="tech-stack">
-                        <span>Express</span><span>TypeScript</span><span>PostgreSQL</span>
-                    </div>
+                    <h4>Monte Carlo Simulations</h4>
+                    <span class="card-origin">Physics Club, IIT Roorkee</span>
+                    <p>Designed and ran computational data simulations modeling probabilistic systems.</p>
                     <div class="project-links">
-                        <a href="#" target="_blank">Code</a>
-                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="https://github.com/" target="_blank">View code on GitHub</a>
                     </div>
+                </div>
+
+                <div class="project-card">
+                    <h4>IISc Bangalore Winter School</h4>
+                    <span class="card-origin">Indian Institute of Science</span>
+                    <p>Attended advanced academic training involving detailed daily lectures accompanied by practical problem-solving tutorials.</p>
                 </div>
 
             </div>
         </section>
 
+        <!-- Skills & Achievements Section -->
         <section id="skills" class="section">
-            <h3 class="section-title">Skills</h3>
-            <ul class="skills-list">
-                <li>HTML / CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Git & GitHub</li>
-            </ul>
+            <h3 class="section-title">Skills & Achievements</h3>
+            
+            <div class="skills-container">
+                <div class="skills-group">
+                    <h4>Technical Skillset</h4>
+                    <ul class="skills-list">
+                        <li>Python</li><li>LaTeX</li><li>Mathematica</li><li>Matlab</li><li>CAD</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group">
+                    <h4>Soft Skills</h4>
+                    <ul class="skills-list">
+                        <li>Scientific Communication</li><li>Technical Writing</li><li>Team Collaboration</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group">
+                    <h4>Awards & Distinctions</h4>
+                    <ul class="awards-list">
+                        <li><strong>Bronze Medal</strong> — University Physics Competition (2025)</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer id="contact" class="footer">
-        <h3 class="section-title">Contact</h3>
-        <p>Feel free to reach out for collaborations or just a friendly chat!</p>
-        <a href="mailto:john.smith@example.com" class="email-link">john.smith@example.com</a>
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="extracurriculars">Extracurriculars: Tabla Player | Table Tennis Player</p>
         <div class="footer-credits">
-            <p>&copy; 2026 Designed & Engineered by John Smith</p>
+            <p>&copy; 2026 Designed & Engineered by Jaskirat Singh</p>
+            <p>All Rights Reserved</p>
         </div>
     </footer>
 
